@@ -1,14 +1,28 @@
-<div class="footer">
-	<div class="row">
-	<div class="col-sm-8">
-	<p><small>&copy; Haihao 2020</small></p>
-	</div>
-	<div class="col-sm-4">
-	<p class="pull-right"><small><a href="/about" title="About this site">About this site</a></small></p>
-	</div>
-	</div>
-	<div class="footer-col footer-col-2">
-		{% include social.html %}
-	</div>
-	</div>
-</div> <!-- /footer -->
+
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            @Haihao Guo
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+          {% include social.html username=site.github_username %}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
