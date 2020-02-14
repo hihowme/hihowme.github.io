@@ -6,5 +6,22 @@
 	<div class="col-sm-4">
 	<p class="pull-right"><small><a href="/about" title="About this site">About this site</a></small></p>
 	</div>
+
+
+	<div class="footer-col footer-col-2">
+	<ul class="social-media-list">
+	  {% if site.github_username %}
+	  <li>
+		{% include icon-github.html username=site.github_username %}
+	  </li>
+	  {% endif %}
+
+	  {% if site.twitter_username %}
+	  <li>
+		{% include icon-twitter.html username=site.twitter_username %}
+	  </li>
+	  {% endif %}
+	</ul>
+	  {% include social.html username=site.github_username %}
 	</div>
 </div> <!-- /footer -->
