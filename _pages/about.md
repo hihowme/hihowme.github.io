@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Email: <a href="mailto:g.haihao@wustl.edu">g.haihao@wustl.edu</a></p>
-    <p>CV: <a href="https://wustl.box.com/s/cgzaqn97zbtusm9atlhn9u034yfpfzbr" target="_blank" rel="noopener">2025.11.06</a></p>
+    <!-- <p>CV: <a href="https://wustl.box.com/s/cgzaqn97zbtusm9atlhn9u034yfpfzbr" target="_blank" rel="noopener">2025.11.06</a></p> -->
 social: false # includes social icons at the bottom of the page
 
 announcements:
