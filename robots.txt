@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://hihowme.github.io/haihao.github.io/sitemap.xml
+Sitemap: https://hihowme.github.io/sitemap.xml
