@@ -11,7 +11,7 @@ _styles: |
   }
 ---
 
-When I’m not writing academic papers about music, I’m making music.
+Alongside my academic work on music, I actively engage in music-making as a jazz guitarist.
 
 I primarily play jazz guitar and perform with the WashU Jazz Band at venues including the 560 Music Center, the Saint Louis Art Museum, and The Blue Room at the American Jazz Museum in Kansas City.
 
