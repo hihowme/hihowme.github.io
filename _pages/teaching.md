@@ -29,10 +29,12 @@ _styles: |
 
 Guest lecture delivered to a class of approximately 80 students.
 
+<!--
 **Selected student feedback:**
 - “This was great! Haihao was super engaging and really kind about us asking questions and getting our class to participate.”
 - “I think this topic is very interesting and I would love to learn more about it. It was a very informative lecture that allowed me to understand a real-world example of AI.”
 - “Thank you for today’s lecture. The content was clear and well-structured, and the examples helped me understand the key concepts.”
+-->
 
 ---
 
