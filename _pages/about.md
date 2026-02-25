@@ -24,6 +24,6 @@ I am a fifth-year Ph.D. candidate in Quantitative Marketing at Washington Univer
 
 My <a href="{{ '/research/' | relative_url }}">research</a> studies product development, diffusion, and pricing in entertainment markets, including music, online video, and video games. I combine economic theory with data-driven methods (Generative AI with retrieval-augmented generation (RAG) for audio and text, MIR analysis, multi-modal analysis, causal inference, game-theoretic modeling, and structural estimation) to understand why some creative products succeed while most fade quickly.
 
-Outside academia, I am an avid neo-soul and jazz enthusiast. I primarily play jazz guitar and regularly perform with the WashU Jazz Band. I also train CrossFit in my freetime.
+Outside academia, I am an avid neo-soul and jazz enthusiast. I primarily play jazz guitar and regularly perform with the WashU Jazz Band. I also train CrossFit regularly.
 
 **I am on the 2026-2027 academic job market for a tenure-track position.**
