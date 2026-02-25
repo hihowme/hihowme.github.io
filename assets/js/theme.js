@@ -91,12 +91,16 @@ let applyTheme = () => {
 };
 
 let setHighlight = (theme) => {
+  const light = document.getElementById("highlight_theme_light");
+  const dark = document.getElementById("highlight_theme_dark");
+  if (!light || !dark) return;
+
   if (theme == "dark") {
-    document.getElementById("highlight_theme_light").media = "none";
-    document.getElementById("highlight_theme_dark").media = "";
+    light.media = "none";
+    dark.media = "";
   } else {
-    document.getElementById("highlight_theme_dark").media = "none";
-    document.getElementById("highlight_theme_light").media = "";
+    dark.media = "none";
+    light.media = "";
   }
 };
 
@@ -298,17 +302,25 @@ let initTheme = () => {
 
   // Add event listener to the theme toggle button.
   document.addEventListener("DOMContentLoaded", function () {
-    const mode_toggle = document.getElementById("light-toggle");
-
-    mode_toggle.addEventListener("click", function () {
-      toggleThemeSetting();
+    const modeToggles = document.querySelectorAll(".light-toggle");
+    modeToggles.forEach((modeToggle) => {
+      modeToggle.addEventListener("click", function () {
+        toggleThemeSetting();
+      });
     });
   });
 
   // Add event listener to the system theme preference change.
-  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
-    applyTheme();
-  });
+  const media = window.matchMedia("(prefers-color-scheme: dark)");
+  if (media.addEventListener) {
+    media.addEventListener("change", () => {
+      applyTheme();
+    });
+  } else if (media.addListener) {
+    media.addListener(() => {
+      applyTheme();
+    });
+  }
 };
 
 // Get the appropriate background color for Google Calendar based on current theme
