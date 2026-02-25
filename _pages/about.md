@@ -26,4 +26,4 @@ My <a href="{{ '/research/' | relative_url }}">research</a> studies product deve
 
 Outside academia, I am an avid neo-soul and jazz enthusiast. I primarily play jazz guitar and regularly perform with the WashU Jazz Band. I also train CrossFit regularly.
 
-**I am on the 2026-2027 academic job market for a tenure-track position.**
+<!-- **I am on the 2026-2027 academic job market for a tenure-track position.** -->
