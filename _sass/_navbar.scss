@@ -155,7 +155,7 @@
   }
 }
 
-#light-toggle {
+.light-toggle {
   padding: 0;
   border: 0;
   background-color: inherit;
@@ -173,7 +173,7 @@
 }
 
 @media (min-width: 576px) {
-  #light-toggle {
+  .light-toggle {
     transform: translateY(4px);
   }
 }
