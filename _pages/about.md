@@ -20,9 +20,9 @@ announcements:
 ---
 
 
-I am a fifth-year Ph.D. candidate in Quantitative Marketing at Washington University in St. Louis. I am advised by <a href="https://olin.washu.edu/faculty/seethu-seetharaman" target="_blank" rel="noopener">Professor Seethu Seetharaman</a>, <a href="https://olin.washu.edu/faculty/baojun-jiang" target="_blank" rel="noopener">Professor Baojun Jiang</a>, and <a href="https://olin.washu.edu/faculty/yingkang-xie" target="_blank" rel="noopener">Professor Yingkang Xie</a>.
+I am a fifth-year Ph.D. candidate in Quantitative Marketing at Washington University in St. Louis. I am advised by Professor Seethu Seetharaman, Professor Baojun Jiang, and Professor Yingkang Xie.
 
-My <a href="{{ '/research/' | relative_url }}">research</a> studies product development, diffusion, and pricing in entertainment markets, including music, online video, and video games. I combine economic theory with modern data-driven methods—Generative AI with retrieval-augmented generation (RAG) for audio and text, machine learning, multi-modal algorithms, causal inference, game-theoretic modeling, and structural estimation—to understand why some creative products succeed while most fade quickly.
+My <a href="{{ '/research/' | relative_url }}">research</a> studies product development, diffusion, and pricing in entertainment markets, including music, online video, and video games. I combine economic theory with data-driven methods (Generative AI with retrieval-augmented generation (RAG) for audio and text, MIR analysis, multi-modal analysis, causal inference, game-theoretic modeling, and structural estimation) to understand why some creative products succeed while most fade quickly.
 
 Outside academia, I am an avid neo-soul and jazz enthusiast. I primarily play jazz guitar and regularly perform with the WashU Jazz Band. I also train CrossFit as a way to stay disciplined and balanced.
 
