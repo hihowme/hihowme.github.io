@@ -3,13 +3,20 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-home",
+    title: "Home",
     section: "Navigation",
     handler: () => {
       window.location.href = "/al-folio/";
     },
-  },{id: "nav-blog",
+  },{id: "nav-research",
+          title: "Research",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/al-folio/research/";
+          },
+        },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
@@ -22,6 +29,20 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/publications/";
+          },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/al-folio/teaching/";
+          },
+        },{id: "nav-music",
+          title: "Music",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/al-folio/music/";
           },
         },{id: "nav-projects",
           title: "projects",
@@ -43,13 +64,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/al-folio/teaching/";
           },
         },{id: "nav-people",
           title: "people",
@@ -450,6 +464,9 @@ ninja.data = [{
               window.location.href = "/al-folio/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-i-will-be-presenting-my-job-market-paper-generative-ai-music-design-through-controlled-similarity-to-historical-styles-which-has-been-accepted-at-both-tpm-2026-and-isms-2026-see-you-in-barcelona-and-lisbon",
+          title: 'I will be presenting my job market paper, “Generative AI Music Design Through...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
